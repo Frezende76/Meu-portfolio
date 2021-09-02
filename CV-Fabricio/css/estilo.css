@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: whitesmoke;
+    color: rgb(35, 65, 145);
+    width: 100%;
+    padding: 15px;
+}
+
+.navbar-header {
+    background-color: whitesmoke;
+} 
+
+.navbar-inverse{
+    background-color: whitesmoke;
+}
+
+.navbar {
+    position: relative;
+    min-height: 0px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.navbar-right{
+    font-size: 22px;
+}
+
+.dados{
+    text-align: center;
+
+}
+
+.recuo{
+    text-indent: 50px;
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+}
+
+.sobre{
+    text-align: center;
+    font-size: 24px;
+}
+
+.empresa h2{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 30px;
+}
+
+.empresa h3{
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.conteudo{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.item{
+    list-style: none;
+    padding: 5px;
+    font-size: 18px; 
+}
+
+.item::before{
+    content: "★ ";
+    padding: 10px;  
+}
+
+.foto img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(0%);
+}   
+
+hr{
+    border: 2px solid;
+}
+
+.rodape{
+    text-align: center;
+    font-size: 20px;
+}
+
+.rodape button{
+    color:rgb(35, 65, 145);
+    border: none;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+@media (min-width: 280px){
+    .dados{
+        font-size: 18px;
+        padding: 2px;
+        margin: 0 auto;
+    }
+
+    .email{
+        font-size: 22px;
+    }
+
+    .navbar-toggle{
+        color: rgb(35, 65, 145);
+        padding-top: 0px;
+        top: 0px;
+    }
+
+    .navbar {
+        position: relative;
+        min-height: 0px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+    }
+   
+    .nav{
+        top: 0px;
+
+    }
+
+    li{
+        font-weight: bold;
+        color:rgb(35, 65, 145); 
+    }
+
+    
+}
+
+@media(min-width: 600px){
+   
+    .navbar-right{
+        display: inline-block;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    i.material-icons{
+        display: none;
+    }
+}
+
+@media(min-width: 1024px){
+   
+    .navbar-right {
+        display: inline-block;
+        padding: 2px;
+        font-size: 18px;
+    }
+
+   
+
+    li{
+        font-weight: bold;
+    }
+
+}
+
