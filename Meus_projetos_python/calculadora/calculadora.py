@@ -38,7 +38,7 @@ Digite:
     resp = ' '
     while resp not in 'SN':
         print()
-        resp = str(input('Deseja continuar calculando? [S/N] ')).strip().upper()[0]
+        resp = str(input('Deseja continuar calculando? [S/N]: ')).strip().upper()[0]
         print()
     if resp == 'N':
           print()
