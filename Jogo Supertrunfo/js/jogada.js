@@ -182,13 +182,12 @@ function jogar() {
 
 function exibeCartaMaquina() {
     var divCartaMaquina = document.getElementById("carta-maquina")
-    var moldura = '<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';
+    var moldura = '<img src="img/moldura.png" style=" width: inherit; height: inherit; position: absolute;">';
     divCartaMaquina.style.backgroundImage = `url(${cartaMaquina.imagem})`
     var nome = `<p class="carta-subtitle">${cartaMaquina.nome}</p>`
     var opcoesTexto = ""
 
     for (var atributo in cartaMaquina.atributos) {
-        console.log(atributo)
         opcoesTexto += "<p type='text' name='atributo' value='" + atributo + "'>" + atributo + " " + cartaMaquina.atributos[atributo] + "<br>"
     }
 
