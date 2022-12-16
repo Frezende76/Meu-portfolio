@@ -67,7 +67,7 @@ body{
 .item{
     list-style: none;
     padding: 5px;
-    font-size: 18px; 
+    font-size: 12px; 
 }
 
 .item::before{
