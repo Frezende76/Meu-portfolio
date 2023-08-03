@@ -10,7 +10,7 @@
         </ul>
         <p v-show="mostrar_email">Mande uma mensagem para {{ email }}</p>
         <p>Para acessar meu portfolio <a v-bind:href="meu_link" target="_blank">basta clicar aqui</a></p>
-        <picture />
+        <Picture />
     </div>
 </template>
 
