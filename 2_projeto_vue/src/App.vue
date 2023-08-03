@@ -1,6 +1,7 @@
 <!-- Essa tag para usar o componente criado -->
 <template>
   <div>
+    <Header />
     <PrimeiroComponente />
     <p>O dado do app é: {{ testando }}</p>
     <LifeCycle />
@@ -11,6 +12,7 @@
 <script>
 
 // Tenho que importar os meus componentes para meu arquivo app.vue entenda que ele existe
+import Header from './components/Header'
 import PrimeiroComponente from './components/PrimeiroComponente.vue'
 import LifeCycle from './components/LifeCycle.vue'
 import Pessoa from './components/Pessoa.vue'
@@ -28,8 +30,21 @@ import Pessoa from './components/Pessoa.vue'
     components: {
       PrimeiroComponente,
       LifeCycle,
-      Pessoa
+      Pessoa,
+      Header
     }
   }
 </script>
 
+<style>
+  body {
+    background-color: #333;
+    color: #fff;
+  }
+
+  /* a {
+    color: red;
+  } */
+
+  
+</style>
