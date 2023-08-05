@@ -1,7 +1,7 @@
 <!-- Essa tag para usar o componente criado -->
 <template>
   <div>
-    <Header />
+    <Header :esta_logado="true" />
     <PrimeiroComponente />
     <p>O dado do app é: {{ testando }}</p>
     <LifeCycle />

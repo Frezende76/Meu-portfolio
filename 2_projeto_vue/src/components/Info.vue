@@ -2,11 +2,13 @@
     <div>
         <p v-if="esta_trabalhando">Estou trabalhando no momento</p>
         <p v-else>Estou em busca de novas oportunidades</p>
-        <p>Utilizo as seguintes tecnologias:</p>
-        <ul>
-            <li>JavaScript</li>
-            <li>PHP</li>
-            <li>Python</li>
+        <p>Utilizo as seguintes tecnologias para back-end:</p>
+        <ul v-bind:key="index" v-for="(technology, index) in backend_technologies">
+            <li>{{ technology }}</li>
+        </ul>
+        <p>Utilizo as seguintes tecnologias para front-end:</p>
+        <ul v-bind:key="index" v-for="(technology, index) in frontend_technologies">
+             <li>{{ technology }}</li>
         </ul>
         <div>
             <button @click="showEmail">{{ textoBotao }}</button>
@@ -25,13 +27,17 @@ export default {
     components: {
         Picture
     },
+    props: {
+        email: String,
+        esta_trabalhando: Boolean
+    },
     data() {
         return {
-            esta_trabalhando: true,
             mostrar_email: false,
-            email: 'matheus@gmail.com',
             meu_link: 'https://goggle.com',
-            textoBotao: 'mostrar e-mail'
+            textoBotao: 'mostrar e-mail',
+            backend_technologies: ['JavaScript', 'PHP', 'Python'],
+            frontend_technologies: ["HTML", "CSS", "Vue"],
         }
     },
     methods: {
