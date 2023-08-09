@@ -31,7 +31,7 @@ import Pessoa from './components/Pessoa.vue'
       PrimeiroComponente,
       LifeCycle,
       Pessoa,
-      Header
+      Header,
     }
   }
 </script>
