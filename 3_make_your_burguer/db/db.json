@@ -79,15 +79,26 @@
   ],
   "burgers": [
     {
-      "nome": "Pedro",
-      "carne": "Veggie burger",
-      "pao": "3 Queijos",
+      "nome": "tirulipa",
+      "carne": "Picanha",
+      "pao": "Italiano Branco",
       "opcionais": [
-        "Salame",
-        "Cebola roxa"
+        "Bacon",
+        "Pepino"
       ],
-      "status": "Em produção",
-      "id": 3
+      "status": "Solicitado",
+      "id": 4
+    },
+    {
+      "nome": "Fabio",
+      "carne": "Picanha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Cebola roxa",
+        "Tomate"
+      ],
+      "status": "Finalizado",
+      "id": 5
     }
   ]
 }
