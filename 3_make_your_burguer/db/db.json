@@ -79,62 +79,15 @@
   ],
   "burgers": [
     {
-      "nome": "engenharia de software",
-      "carne": "Alcatra",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado",
-      "id": 1
-    },
-    {
-      "nome": "Joaquim",
-      "carne": "Picanha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Cheddar",
-        "Tomate",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado",
-      "id": 2
-    },
-    {
-      "nome": "Maria",
-      "carne": "Maminha",
+      "nome": "Pedro",
+      "carne": "Veggie burger",
       "pao": "3 Queijos",
       "opcionais": [
-        "Bacon",
-        "Cheddar",
-        "Tomate"
+        "Salame",
+        "Cebola roxa"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 3
-    },
-    {
-      "nome": "Jose",
-      "carne": "Veggie burger",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 4
-    },
-    {
-      "nome": "Paulo Sergio",
-      "carne": "Picanha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Cheddar",
-        "Tomate",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 5
     }
   ]
 }
