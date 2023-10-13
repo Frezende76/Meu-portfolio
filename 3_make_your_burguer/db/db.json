@@ -99,6 +99,20 @@
       ],
       "status": "Finalizado",
       "id": 5
+    },
+    {
+      "nome": "Fabricio",
+      "carne": "Picanha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Cebola roxa",
+        "Cheddar",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 6
     }
   ]
 }
