@@ -1,6 +1,6 @@
 <template>
   <div>
-    <navbar :logo="logo_src" :alt="app_name"/>
+    <navbar/>
     <router-view />
     <Footer />
   </div>
@@ -16,7 +16,7 @@ export default {
     },
     data() {
       return {
-        
+      
       }
     }
 

@@ -23,11 +23,9 @@
         <h2><strong><a>Sobre mim</a></strong></h2>
         <br>
         <br>
-        <p>
         <aside class="recuo">
             Profissional da área de desenvolvimento, Bacharel em Analise de Sistemas, cursando Engenharia de Software e estudando Vue.js. Trabalhando com HTML, CSS, Bootstrap, Javascript, jQuery e Python. Uso o Ajax para conexão com as APIs desenvolvidas em Python, uso do Modal do Bootstrap, DataTables e o Select2, ambos do jQuery, para melhorar no layout da tela de acordo com as necessidades do cliente. Ampla experiência na gestão de serviços de Tecnologia da Informação, com domínio dos processos de atendimento presencial e suporte técnico especializado em empresas públicas como Petrobras e Eletrobrás.
         </aside>
-        </p>
       </section>
     </main>
   </div>

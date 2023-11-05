@@ -18,7 +18,7 @@
 <script>
     export default {
         name:"Navbar",
-        props: ["logo", "alt"],
+        // props: ["logo", "alt"],
         data() {
             return {
                 showMenu: false
