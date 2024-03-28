@@ -1,11 +1,15 @@
 <div class="class">
-  <p *ngIf="show">Exibindo mensagem!</p>
+  <div *ngIf="show" class="alert alert-success" role="alert" >
+    <p>Exibindo mensagem!</p>
+  </div>
   <br>
   <button type="button" class="btn btn-primary" (click)="showMessage()">Clique em mim!</button>
 </div>
 
 <div class="class">
-  <p *ngIf="showMsg">Olá {{ name }}</p>
+
+    <p *ngIf="showMsg">Bem-vindo {{ name }}</p>
+
   <br>
   <button type="button" class="btn btn-success"(click)="trocarTexto()">{{ textoBotao }}</button>
 </div>
