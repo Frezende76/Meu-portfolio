@@ -4,33 +4,29 @@
     box-sizing: border-box;
 }
 
-html,
 body {
-    padding: 20px 20px 20px 20px;
-    width: 100%;
+    margin: 10px;
 }
 
 h5 {
     font-size: 18px;
 }
 
-.pai-dados{
-    width: 50%;
-    height: 1800px;
+.container {
     display: flex;
-    flex-wrap: wrap;
-    background-color: #006298;
-    /* text-align: center; */
+  }     
+
+.pai-dados{
+    width: calc(100% - 700px);
+    background-color: lightgray;
+    
 }
 
 .pai-experiencia {
-    margin-top: -1800px;
-    margin-left: 50%;
-    width: 50%;
-    height: 1800px;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: gray;
+    width: calc(100% - 400px);
+    height: 100%;
+    background-color: lightskyblue;
+    
 }
 
 .filho-dados {
@@ -38,24 +34,27 @@ h5 {
     height: 100%; 
 }   
 
+.foto {
+    flex: 1; /* A logo ocupa todo o espaço disponível */
+}
+
 .foto img{
-    width: 40%;
-    height: 14%;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 60px;
-    margin-bottom: 80px;
-    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: absolute;
     transform: translateY(0%);
-}
+   }
 
 .nome{
     padding-left: 5px;
     text-align: center;
     font-size: 24px;
     color: whitesmoke;
-    margin-top: -1420px;
+    margin-top: -1300px;
 }
 
 .conteudo{
@@ -63,14 +62,23 @@ h5 {
     text-align: center;
     font-size: 18px;
     color: whitesmoke;
-    margin-top: -1750px;
+    margin-top: -1450px;
     padding-bottom: 10px;
+}
+
+.conhecimento{
+    padding-left: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: whitesmoke;
+    margin-top: -1460px;
+    padding-bottom: 20px;
 }
 
 .celular{
     padding-left: 5px;
     font-size: 18px;
-    margin-top: -1550px;
+    margin-top: -1650px;
     text-align: center;
     color: whitesmoke;
 }
@@ -78,7 +86,7 @@ h5 {
 .email{
     padding-left: 5px;
     font-size: 18px;
-    margin-top: -1750px;
+    margin-top: -1800px;
     text-align: center;
     color: whitesmoke;
 }
@@ -99,7 +107,7 @@ h5 {
     text-align: center;
     color: whitesmoke;
     font-size: 18px;
-    margin-top: -2850px;
+    margin-top: -900px;
     padding-bottom: 50px;
 }
 
@@ -108,7 +116,7 @@ h5 {
     border-radius: 100%;
     padding: 10px 10px 10px 10px;
     text-align: center;
-    margin-top: -2820px;
+    margin-top: -1400px;
 }
 
 .icone {
@@ -139,17 +147,17 @@ svg {
 }
 
 strong.filho-experiencia.historico-profissional{
-    margin-left: 250px;
     text-align: center;
     padding-top: 5%;
+    margin: 10px 10px 10px 10px;
 }
 
 strong.filho-experiencia.cursos{
-    margin-left: 140px;
+    margin: 10px 10px 10px 10px;
 }
 
 strong.filho-experiencia.prof-idiomas{
-    margin-left: 180px;
+    margin: 10px 10px 10px 10px;
 }
 
 h4{
